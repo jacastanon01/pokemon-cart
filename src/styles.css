@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+}
+
+.poke-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 1rem 0;
+  border: solid 1px black;
+  align-items: center;
+  justify-items: center;
+  padding: 1rem;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.buttons button {
+  padding: 0 1rem;
+}
